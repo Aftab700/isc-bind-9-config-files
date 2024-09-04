@@ -1,0 +1,18 @@
+$TTL 3600
+@    IN    SOA   ns1.oastify.com. admin.oastify.com. (
+                6 ; Serial
+                3600       ; Refresh
+                1800       ; Retry
+                1209600    ; Expire
+                3600 )     ; Minimum TTL
+
+@    IN    NS    ns1.oastify.com.
+@    IN    NS    ns2.oastify.com.
+
+ns1  IN    A     3.248.33.252
+ns2  IN    A     54.77.139.23
+
+@  IN    A     3.248.33.252
+@  IN    A     54.77.139.23
+
+*    IN    CNAME PublicInteractionNLB-3bddf5ff6abb91b6.elb.eu-west-1.amazonaws.com.

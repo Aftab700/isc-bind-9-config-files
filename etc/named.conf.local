@@ -1,0 +1,17 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+// include "C:\Program Files\ISC BIND 9\zones\zones.rfc1918";
+
+zone "oastify.com" {
+     type master;
+     file "C:\Program Files\ISC BIND 9\zones\ext.zone";
+};
+
+zone "." IN {
+     type hint;
+     file "C:\Program Files\ISC BIND 9\zones\db.root.hint.zone";
+};
