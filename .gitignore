@@ -2,6 +2,7 @@ note.txt
 logs/
 etc/named.pid
 etc/session.key
+etc/rndc.key
 zones/managed-keys.bind
 zones/managed-keys.bind.jnl
 zones/named.run
