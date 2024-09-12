@@ -1,1 +1,9 @@
+note.txt
 logs/
+etc/named.pid
+etc/session.key
+zones/managed-keys.bind
+zones/managed-keys.bind.jnl
+zones/named.run
+
+

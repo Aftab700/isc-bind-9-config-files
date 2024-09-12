@@ -8491,3 +8491,383 @@
 04-Sep-2024 10:12:56.870 dnssec: info: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
 04-Sep-2024 10:13:17.701 dispatch: warning: dispatch 0000029C3CF06D30: open_socket(0.0.0.0#59496) -> permission denied: continuing
 04-Sep-2024 10:20:32.988 dispatch: warning: dispatch 0000029C3CA60130: open_socket(0.0.0.0#59380) -> permission denied: continuing
+12-Sep-2024 19:21:21.810 zoneload: info: managed-keys-zone: loaded serial 67
+12-Sep-2024 19:21:21.810 zoneload: info: zone htb/IN: loaded serial 2024091201
+12-Sep-2024 19:21:21.826 general: notice: all zones loaded
+12-Sep-2024 19:21:21.826 general: notice: running
+12-Sep-2024 19:21:21.991 dnssec: info: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+12-Sep-2024 19:31:05.669 xfer-out: info: client @0000021D021F1538 127.0.0.1#32568 (htb): transfer of 'htb/IN': AXFR started (serial 2024091201)
+12-Sep-2024 19:31:05.669 xfer-out: info: client @0000021D021F1538 127.0.0.1#32568 (htb): transfer of 'htb/IN': AXFR ended: 1 messages, 5 records, 190 bytes, 0.001 secs (190000 bytes/sec) (serial 2024091201)
+12-Sep-2024 19:35:11.949 general: info: received control channel command 'reload'
+12-Sep-2024 19:35:11.949 general: info: loading configuration from 'C:\Program Files\ISC BIND 9\etc\named.conf'
+12-Sep-2024 19:35:11.980 general: info: unable to open '/dns/etc/bind.keys'; using built-in keys instead
+12-Sep-2024 19:35:11.980 general: info: using default UDP/IPv4 port range: [32768, 65535]
+12-Sep-2024 19:35:11.980 general: info: using default UDP/IPv6 port range: [32768, 65535]
+12-Sep-2024 19:35:11.986 general: info: sizing zone task pool based on 2 zones
+12-Sep-2024 19:35:11.990 config: info: none:84: 'max-cache-size 90%' - setting to 5449MB (out of 6055MB)
+12-Sep-2024 19:35:11.993 security: info: using built-in root key for view _default
+12-Sep-2024 19:35:11.996 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 19:35:11.996 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 19:35:12.012 general: info: reloading configuration succeeded
+12-Sep-2024 19:35:12.016 general: info: reloading zones succeeded
+12-Sep-2024 19:35:12.022 general: notice: all zones loaded
+12-Sep-2024 19:35:12.022 general: notice: running
+12-Sep-2024 19:35:12.139 dnssec: info: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+12-Sep-2024 19:35:20.108 security: error: client @0000021D022080C8 127.0.0.1#32591 (htb): zone transfer 'htb/AXFR/IN' denied
+12-Sep-2024 19:47:59.577 general: info: received control channel command 'reload'
+12-Sep-2024 19:47:59.577 general: info: loading configuration from 'C:\Program Files\ISC BIND 9\etc\named.conf'
+12-Sep-2024 19:47:59.602 general: info: unable to open '/dns/etc/bind.keys'; using built-in keys instead
+12-Sep-2024 19:47:59.602 general: info: using default UDP/IPv4 port range: [32768, 65535]
+12-Sep-2024 19:47:59.602 general: info: using default UDP/IPv6 port range: [32768, 65535]
+12-Sep-2024 19:47:59.602 general: info: sizing zone task pool based on 2 zones
+12-Sep-2024 19:47:59.615 config: info: none:84: 'max-cache-size 90%' - setting to 5449MB (out of 6055MB)
+12-Sep-2024 19:47:59.618 security: info: using built-in root key for view _default
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 10.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.618 zoneload: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 0.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 127.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.633 zoneload: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: D.F.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 8.E.F.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 9.E.F.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: A.E.F.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: B.E.F.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: EMPTY.AS112.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: HOME.ARPA
+12-Sep-2024 19:47:59.649 zoneload: info: automatic empty zone: RESOLVER.ARPA
+12-Sep-2024 19:47:59.649 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 19:47:59.649 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 19:47:59.665 general: info: reloading configuration succeeded
+12-Sep-2024 19:47:59.681 general: info: reloading zones succeeded
+12-Sep-2024 19:47:59.681 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:1::53#53
+12-Sep-2024 19:47:59.681 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:9f::42#53
+12-Sep-2024 19:47:59.694 lame-servers: info: network unreachable resolving './NS/IN': 2001:dc3::35#53
+12-Sep-2024 19:47:59.694 lame-servers: info: network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+12-Sep-2024 19:47:59.694 lame-servers: info: network unreachable resolving './NS/IN': 2001:7fe::53#53
+12-Sep-2024 19:47:59.694 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:2f::f#53
+12-Sep-2024 19:47:59.694 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:a8::e#53
+12-Sep-2024 19:47:59.697 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:2::c#53
+12-Sep-2024 19:47:59.699 lame-servers: info: network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+12-Sep-2024 19:47:59.699 lame-servers: info: network unreachable resolving './NS/IN': 2001:7fd::1#53
+12-Sep-2024 19:47:59.701 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+12-Sep-2024 19:47:59.701 lame-servers: info: network unreachable resolving './NS/IN': 2801:1b8:10::b#53
+12-Sep-2024 19:47:59.702 general: notice: all zones loaded
+12-Sep-2024 19:47:59.702 lame-servers: info: network unreachable resolving './NS/IN': 2001:500:2d::d#53
+12-Sep-2024 19:47:59.702 general: notice: running
+12-Sep-2024 19:47:59.808 dnssec: info: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+12-Sep-2024 19:48:00.286 resolver: info: resolver priming query complete
+12-Sep-2024 19:48:06.234 lame-servers: info: timed out resolving 'status.aftabsama.com/AAAA/IN': 8.8.4.4#53
+12-Sep-2024 19:48:36.004 dispatch: warning: dispatch 0000021D03A74660: open_socket(0.0.0.0#50213) -> permission denied: continuing
+12-Sep-2024 20:11:58.235 general: info: received control channel command 'reload'
+12-Sep-2024 20:11:58.235 general: info: loading configuration from 'C:\Program Files\ISC BIND 9\etc\named.conf'
+12-Sep-2024 20:11:58.271 general: info: unable to open '/dns/etc/bind.keys'; using built-in keys instead
+12-Sep-2024 20:11:58.271 general: info: using default UDP/IPv4 port range: [32768, 65535]
+12-Sep-2024 20:11:58.271 general: info: using default UDP/IPv6 port range: [32768, 65535]
+12-Sep-2024 20:11:58.276 general: info: sizing zone task pool based on 2 zones
+12-Sep-2024 20:11:58.296 config: info: none:84: 'max-cache-size 90%' - setting to 5449MB (out of 6055MB)
+12-Sep-2024 20:11:58.302 security: info: using built-in root key for view _default
+12-Sep-2024 20:11:58.304 zoneload: info: automatic empty zone: 10.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.304 zoneload: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.304 zoneload: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.306 zoneload: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.306 zoneload: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.306 zoneload: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.306 zoneload: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.306 zoneload: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.306 zoneload: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 0.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 127.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: D.F.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 8.E.F.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 9.E.F.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: A.E.F.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: B.E.F.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+12-Sep-2024 20:11:58.308 zoneload: info: automatic empty zone: EMPTY.AS112.ARPA
+12-Sep-2024 20:11:58.324 zoneload: info: automatic empty zone: HOME.ARPA
+12-Sep-2024 20:11:58.324 zoneload: info: automatic empty zone: RESOLVER.ARPA
+12-Sep-2024 20:11:58.324 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 20:11:58.324 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 20:11:58.340 general: info: reloading configuration succeeded
+12-Sep-2024 20:11:58.352 general: info: reloading zones succeeded
+12-Sep-2024 20:11:58.352 dispatch: warning: dispatch 0000021D04064800: open_socket(0.0.0.0#64050) -> permission denied: continuing
+12-Sep-2024 20:11:58.370 general: notice: all zones loaded
+12-Sep-2024 20:11:58.370 general: notice: running
+12-Sep-2024 20:11:58.497 dnssec: info: managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+12-Sep-2024 20:22:35.416 general: info: received control channel command 'reload'
+12-Sep-2024 20:22:35.416 general: info: loading configuration from 'C:\Program Files\ISC BIND 9\etc\named.conf'
+12-Sep-2024 20:22:35.429 general: info: unable to open '/dns/etc/bind.keys'; using built-in keys instead
+12-Sep-2024 20:22:35.431 general: info: using default UDP/IPv4 port range: [32768, 65535]
+12-Sep-2024 20:22:35.431 general: info: using default UDP/IPv6 port range: [32768, 65535]
+12-Sep-2024 20:22:35.431 general: info: sizing zone task pool based on 2 zones
+12-Sep-2024 20:22:35.438 config: info: none:84: 'max-cache-size 90%' - setting to 5449MB (out of 6055MB)
+12-Sep-2024 20:22:35.443 security: info: using built-in root key for view _default
+12-Sep-2024 20:22:35.443 zoneload: info: automatic empty zone: 10.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 16.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 17.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 18.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 19.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 20.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 21.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 22.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 23.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 24.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 25.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 26.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 27.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 28.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 29.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 30.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 31.172.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 168.192.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 64.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 65.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 66.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 67.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 68.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 69.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 70.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 71.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 72.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 73.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 74.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 75.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 76.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 77.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 78.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 79.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 80.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 81.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 82.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 83.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 84.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 85.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 86.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 87.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 88.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 89.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 90.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 91.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 92.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 93.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 94.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 95.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 96.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 97.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 98.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 99.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 100.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 101.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 102.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 103.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 104.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 105.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 106.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 107.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 108.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 109.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 110.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 111.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 112.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 113.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 114.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 115.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 116.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 117.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 118.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 119.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 120.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 121.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 122.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 123.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 124.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.445 zoneload: info: automatic empty zone: 125.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 126.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 127.100.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 0.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 127.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 254.169.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 100.51.198.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 113.0.203.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+12-Sep-2024 20:22:35.459 zoneload: info: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+12-Sep-2024 20:22:35.463 zoneload: info: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+12-Sep-2024 20:22:35.463 zoneload: info: automatic empty zone: D.F.IP6.ARPA
+12-Sep-2024 20:22:35.463 zoneload: info: automatic empty zone: 8.E.F.IP6.ARPA
+12-Sep-2024 20:22:35.463 zoneload: info: automatic empty zone: 9.E.F.IP6.ARPA
+12-Sep-2024 20:22:35.464 zoneload: info: automatic empty zone: A.E.F.IP6.ARPA
+12-Sep-2024 20:22:35.464 zoneload: info: automatic empty zone: B.E.F.IP6.ARPA
+12-Sep-2024 20:22:35.464 zoneload: info: automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+12-Sep-2024 20:22:35.464 zoneload: info: automatic empty zone: EMPTY.AS112.ARPA
+12-Sep-2024 20:22:35.464 zoneload: info: automatic empty zone: HOME.ARPA
+12-Sep-2024 20:22:35.464 zoneload: info: automatic empty zone: RESOLVER.ARPA
+12-Sep-2024 20:22:35.471 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
+12-Sep-2024 20:22:35.475 general: info: configuring command channel from 'C:\Program Files\ISC BIND 9\etc\rndc.key'
