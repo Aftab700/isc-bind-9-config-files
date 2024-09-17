@@ -1,5 +1,5 @@
 acl "trusted" {
-    127.0.0.0/24;  // Replace with your trusted network
+    localhost;  // Replace with your trusted network
 };
 
 options {
