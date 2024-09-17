@@ -23,6 +23,13 @@ options {
 
         // Forward DNS queries to public DNS resolvers
         forwarders {
+            1.1.1.1 port 853;  // Cloudflare DNS-over-TLS
+            1.0.0.1 port 853;  // Cloudflare DNS-over-TLS
+            8.8.8.8 port 853;  // Google DNS-over-TLS
+            8.8.4.4 port 853;  // Google DNS-over-TLS
+            9.9.9.9 port 853;  // Quad9 DNS-over-TLS
+            9.9.9.10 port 853; // Quad9 DNS-over-TLS
+            
             1.1.1.1;        // Cloudflare DNS
             1.0.0.1;        // Cloudflare DNS
             8.8.8.8;        // Google Public DNS
